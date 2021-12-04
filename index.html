@@ -10,7 +10,7 @@
   <link rel='stylesheet'  href='./css/styles.css' />
 </head>
 <body>
-  <header class='Header'>
+  <header class='Wrapper Header'>
     <img class='Header__img' src="./assets/imgs/logo-header.svg" alt="Logo
     Batatabit">
     <div class='Header__containerCopy'>
@@ -20,7 +20,7 @@
       <a class='Header__button' href="#">Conoce nuestros planes <span></span> </a>
     </div>
   </header>
-  <main class='Main'>
+  <main class='Wrapper Main'>
     <section class='Main-exchange-container'>
       <div class='Main-exchange__img'>
 
@@ -30,29 +30,92 @@
           cambio</h2>
         <p class="Main-exchange__description">Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
       </div>
-      <section class='Main-tables-container' >
+      <article class='Main-tables-container' >
         <h3 class="Table-title">Monedas</h3>
         <div class="Table-container">
           <p class="Table-name">Bitcoin</p>
-          <p class="Table-price">1.96<span class='Table-icon'><img
-            src="./assets/icons/icon-arrow-bottom.svg" alt="icon"></span></p>
+          <p class="Table-price">1.96</p>
+          <div class="Table-container-img">
+            <img class='Table-icon'
+              src="./assets/icons/icon-arrow-bottom.svg" alt="icon">
+          </div>
           <p class="Table-name">Ethereum</p>
-          <p class="Table-price">0.07<span class='Table-icon'><img
-            src="./assets/icons/icon-arrow-top.svg" alt=""></span></p>
+          <p class="Table-price">0.07</p>
+          <div class='Table-container-img'>
+            <img class="Table-icon" src="./assets/icons/icon-arrow-top.svg" alt="">
+          </div>
           <p class="Table-name">Ripple</p>
-          <p class="Table-price">2.15<span class='Table-icon'><img
-            src="./assets/icons/icon-arrow-bottom.svg" alt=""></span></p>
+          <p class="Table-price">2.15</p>
+          <div class='Table-container-img'>
+            <img class="Table-icon" src="./assets/icons/icon-arrow-bottom.svg" alt="">
+          </div>
           <p class="Table-name">Stellar</p>
-          <p class="Table-price">4.96<span class='Table-icon'><img
-            src="./assets/icons/icon-arrow-bottom.svg" alt=""></span></p>
+          <p class="Table-price">4.96</p>
+          <div class='Table-container-img'>
+            <img class="Table-icon" src="./assets/icons/icon-arrow-bottom.svg" alt="">
+          </div>
         </div>
         <p class="Table-description"><span>Actualizado: </span>30 Octubre 06:39</p>
-      </section>
+      </article>
     </section>
-    <section></section>
-    <section></section>
-    <section></section>
+    <section class="Feature">
+      <h2 class="Feature__title">Creamos un producto sin comparación.</h2>
+      <p class="Feature__description">Confiable y diseñado para su uso diario.</p>
+      <article class="Feature__card">
+        <img class="Feature__card-img" src="./assets/icons/icon-reloj.svg" alt="icon-reloj">
+        <h3 class="Feature__card-title">Tiempo real</h3>
+        <p class="Feature__card-description">Nuestro API toma información minuto a minuto sobre las tasas que más determinan el comportamiento.</p>
+      </article>
+      <article class="Feature__card">
+        <img class="Feature__card-img" src="./assets/icons/icon-ojo.svg" alt="icon-ojo">
+        <h3 class="Feature__card-title">No hay tasas escondidas</h3>
+        <p class="Feature__card-description">Ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estás adquiriendo.</p>
+      </article>
+      <article class="Feature__card">
+        <img class="Feature__card-img" src="./assets/icons/icon-dollar.svg" alt="icon-dollar">
+        <h3 class="Feature__card-title">Compara monedas</h3>
+        <p class="Feature__card-description">>Ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estás adquiriendo.</p>
+      </article>
+      <article class="Feature__card">
+        <img class="Feature__card-img" src="./assets/icons/icon-check-circle.svg" alt="icon-check">
+        <h3 class="Feature__card-title">Información confiable</h3>
+        <p class="Feature__card-description">Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan.</p>
+      </article>
+    </section>
+    <section>
+      <div class="Image__container">
+        <img src="./assets/imgs/bitcoinbaby.png" alt="bitcoinbaby class="Image">
+      </div>
+    </section>
+    <section class="Wrapper Planes">
+      <h2 class="Planes__title">Escoge el plan que mejor se ajuste a ti.</h2>
+      <p class="Planes__description">Cualquier plan te da acceso completo a nuestra plataforma.</p>
+      <article class="Planes__card">
+        <button class="Planes__button-secondary Button">Recomendado</button>
+        <h3 class="Planes__card-title">Plan Anual</h3>
+        <h4 class="Planes__card-price">99</h4>
+        <p class="Planes__card-description">*Ahorras $129 comparado al plan mensual.</p>
+        <button class="Planes__button-primary Button">Escoger este <img class="Planes__button-primary--icon" src="./assets/icons/icon-arrow-right.svg" alt=""></button>
+      </article>
+    </section>
   </main>
-  <footer></footer>
+  <footer class="Wrapper Footer">
+    <section class="Footer__link">
+      <ul class="Footer__nav">
+        <li class="Footer__nav-item">
+          <a href="#" class="Footer__nav-link">Linkedin</a>
+        </li>
+        <li class="Footer__nav-item">
+          <a href="#" class="Footer__nav-link">Crunbase</a>
+        </li>
+        <li class="Footer__nav-item">
+          <a href="#" class="Footer__nav-link">Hackernews</a>
+        </li>
+      </ul>
+    </section>
+    <section class="Copy">
+      <img class="Copy__img" src="./assets/imgs/logo-footer.svg" alt="">
+    </section>
+  </footer>
 </body>
 </html>
